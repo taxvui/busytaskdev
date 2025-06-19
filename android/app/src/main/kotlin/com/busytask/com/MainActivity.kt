@@ -1,4 +1,4 @@
-package com.maantheme.cash_rocket
+package com.busytask.com
 
 import io.flutter.embedding.android.FlutterActivity
 

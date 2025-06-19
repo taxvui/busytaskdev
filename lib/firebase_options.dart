@@ -25,10 +25,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -52,10 +49,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC3Od7B6uoSL00aLDA18vX9cIrQXXMFyA4',
-    appId: '1:379243505940:android:1985a76a2806344ed53a01',
-    messagingSenderId: '379243505940',
-    projectId: 'cash-rocket-1938d',
-    storageBucket: 'cash-rocket-1938d.appspot.com',
+    apiKey: 'AIzaSyBKy_uPIcs7aLrR3D4BsC5Ebz8FGgk_gcM',
+    appId: '1:266709706870:android:fbbdc88f84ada1e6259757',
+    messagingSenderId: '266709706870',
+    projectId: 'busy-task-com',
+    storageBucket: 'busy-task-com.firebasestorage.app',
   );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyAhjqVWqyOsj5vPdzAEsWD208TqvqRYgk0',
+    appId: '1:266709706870:ios:a59c387266a0f8af259757',
+    messagingSenderId: '266709706870',
+    projectId: 'busy-task-com',
+    storageBucket: 'busy-task-com.firebasestorage.app',
+    iosClientId: '266709706870-m73s52uhkil3ir9i096h8382ch8k776u.apps.googleusercontent.com',
+    iosBundleId: 'com.busytask.com',
+  );
+
 }

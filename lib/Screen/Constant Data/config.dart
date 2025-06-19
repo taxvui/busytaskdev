@@ -1,7 +1,7 @@
 class Config {
   //Server Config
-  static const String serverUrl = 'https://cashrocket.acnoo.com/api/v1/';
-  static const String siteUrl = 'https://cashrocket.acnoo.com/';
+  static const String serverUrl = 'https://busytasks.com/api/v1/';
+  static const String siteUrl = 'https://busytasks.com/';
   static const String signInUrl = 'authentication';
   static const String forgotPasswordUrl = 'send-reset-code';
   static const String verifyOtpUrl = 'verify-reset-code';

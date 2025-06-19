@@ -101,6 +101,7 @@ dependencies:
     git:
       url: https://github.com/mdshakilmia22/flutter-plugin-pollfish.git
       ref: master
+  rename_app: ^1.6.3
 
 dev_dependencies:
   flutter_test:
@@ -118,7 +119,7 @@ dev_dependencies:
 flutter_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "images/logoicon.png"
+  image_path: "images/update/busyicon.svg"
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
